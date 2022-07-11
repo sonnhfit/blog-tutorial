@@ -7,3 +7,15 @@
 -  pwd hiển thị đường dẫn hiện tại
 -  `nano tenfile`
 - `ssh root@192.168.0.127`  kết nối 
+
+
+# Một số kỹ năng sử dụng github 
+
+- `git clone link_repo` tải code về 
+- `git pull origin master`
+- git push 
+- git checkout -b tennhac
+- git status 
+- git add . 
+- git commit -m "message"
+- git rebase  gộp commit 
