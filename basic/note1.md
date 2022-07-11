@@ -14,7 +14,7 @@
 - `git clone link_repo` tải code về 
 - `git pull origin master`
 - git push 
-- git checkout -b tennhac
+- `git checkout -b tennhac`
 - git status 
 - git add . 
 - git commit -m "message"
