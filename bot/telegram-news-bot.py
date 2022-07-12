@@ -31,7 +31,9 @@ def news(update: Update, context: CallbackContext) -> None:
         str1 += item["title"] + "\n"
     update.message.reply_text(f'{str1}')
 
-
+def getlist(request):
+    product =  Product.object.all()
+    
 
 updater = Updater('YOUR TELEGRAM TOKEN')
 
