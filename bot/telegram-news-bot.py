@@ -2,6 +2,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 import requests
 from bs4 import BeautifulSoup
+from django.shortcuts import render
 
 
 def get_news():
@@ -31,6 +32,10 @@ def news(update: Update, context: CallbackContext) -> None:
         str1 += item["title"] + "\n"
     update.message.reply_text(f'{str1}')
 
+
+def getlist(request):
+    product = Product.object.all()
+    return render(request, "product.html", product: "product")
 
 
 updater = Updater('YOUR TELEGRAM TOKEN')
