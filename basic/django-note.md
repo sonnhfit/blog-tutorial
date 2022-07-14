@@ -10,3 +10,6 @@
 - Static 
 
 Những thành phần này liên kết với nhau như thế nào ? 
+
+- settings : cấu hình của hệ thống 
+- manage.py: chạy những lệnh của hệ thống ví dụ: tạo app, runserver, ... 
