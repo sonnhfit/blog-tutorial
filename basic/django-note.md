@@ -26,3 +26,8 @@ Những thành phần này liên kết với nhau như thế nào ?
 
 - settings : cấu hình của hệ thống 
 - manage.py: chạy những lệnh của hệ thống ví dụ: tạo app, runserver, ... 
+## Bài tập
+- Thêm giao diện, html, css cho trang web ví dụ 
+- https://preview.tabler.io/layout-vertical.html
+- https://adminlte.io/
+- Nhập dữ liệu: Tạo form để nhập dữ liệu(submit form, post, get, render, redirct `return redirect('name_of_url')`
