@@ -7,7 +7,20 @@
 - admin 
 - url 
 - templates 
-- Static 
+- Static
+
+```
+- urls->views -> templates
+
+views:
+  - là phần xử lí logic giữa model và template, urls thông qua giao thức http
+template:
+  - hiện thị dữ liệu thông qua đối tượng context
+model: tương tác dữ liệu trong database
+urls: đường dẫn đến trang web, định tuyến logic của view
+admin: quản lý model
+static: nơi lưu trữ các file css, js
+```
 
 Những thành phần này liên kết với nhau như thế nào ? 
 
